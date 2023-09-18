@@ -13,6 +13,9 @@
           {{ end }}
           <img src="{{ $image }}" alt="{{ . }}" class="post_thumbnail">
         {{ end }}
+        <aside>
+          {{ .TableOfContents }}
+        </aside>
           {{ .Content }}
         </div>
         <div class="post_extra mb-2">
